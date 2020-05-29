@@ -1,0 +1,7 @@
+FROM ubuntu
+MAINTAINER sivasankar
+RUN apt-get update
+RUN apt-get install -y tree
+RUN apt-get install -y openjdk-8-jdk
+CMD ["bin/bash"]
+
